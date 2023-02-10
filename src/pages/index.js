@@ -6,10 +6,7 @@ import {
   Input,
   Loading,
 } from "@nextui-org/react";
-import { Layout } from "./Layout.js";
-import { GithubIcon } from "../components/navbar/github-icon";
-import { AcmeLogo } from "./AcmeLogo.js";
-import { SearchIcon } from "./SearchIcon.js";
+import { Layout } from "../components/Layout.js";
 import { Image } from "@nextui-org/react";
 
 export default function App() {
