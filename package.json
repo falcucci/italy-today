@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@extractus/article-extractor": "^7.2.8",
     "@next/font": "13.1.6",
     "@nextui-org/react": "^1.0.0-beta.12",
+    "chatgpt": "^4.4.0",
     "cmdk": "^0.1.22",
     "next": "13.1.6",
+    "node-fetch": "^3.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typewriter-effect": "^2.19.0"
+    "typewriter-effect": "^2.19.0",
+    "unfetch": "^5.0.0",
+    "unfluff": "^3.2.0"
   }
 }

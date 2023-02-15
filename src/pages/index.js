@@ -10,6 +10,7 @@ import { Layout } from "../components/Layout.js";
 import { Image } from "@nextui-org/react";
 
 export default function App() {
+
   return (
     <Layout>
       <Navbar variant="floating">
