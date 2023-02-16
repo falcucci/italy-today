@@ -12,6 +12,7 @@
     "@extractus/article-extractor": "^7.2.8",
     "@next/font": "13.1.6",
     "@nextui-org/react": "^1.0.0-beta.12",
+    "@vercel/analytics": "^0.1.9",
     "chatgpt": "^4.4.0",
     "cmdk": "^0.1.22",
     "next": "13.1.6",
