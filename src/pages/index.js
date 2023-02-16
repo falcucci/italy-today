@@ -10,7 +10,6 @@ import { Layout } from "../components/Layout.js";
 import { Image } from "@nextui-org/react";
 
 export default function App() {
-
   return (
     <Layout>
       <Navbar variant="floating">
@@ -40,16 +39,10 @@ export default function App() {
               jc: "space-between",
             },
           }}>
-          <Navbar.Link isActive activeColor="success" href="#">
-            About
-          </Navbar.Link>
-          <Navbar.Link href="#">Suggest</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
-          <Navbar.Link href="#">Settings</Navbar.Link>
           <Navbar.Link
             target={"_blank"}
-            href="http://github.com/falcucci/italy-today">
-            Github
+            href="http://github.com/falcucci/italy-today"
+            isActive activeColor="success"> Github
           </Navbar.Link>
         </Navbar.Content>
       </Navbar>
