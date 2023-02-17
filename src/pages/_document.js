@@ -6,6 +6,7 @@ import Document, {
   NextScript,
 } from "next/document";
 import { CssBaseline } from "@nextui-org/react";
+
 import SEO from "../components/seo";
 
 class MyDocument extends Document {

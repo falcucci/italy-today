@@ -53,6 +53,7 @@ export const Content = () => {
           Copy and paste a link which you would like to summarize.
         </Text>
         <Input
+          title="Article"
           size="xl"
           bordered
           labelLeft="https://"
@@ -66,6 +67,7 @@ export const Content = () => {
         />
         <Spacer y={1} />
         <Button
+          title="Summarize"
           bordered
           color="white"
           size="xl"

@@ -1,8 +1,6 @@
-import Head from "next/head";
-
 const SEO = ({ description, keywords, title }) => (
   <>
-    <title>{title} | Summarizer</title>
+    <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords?.join(", ")} />
     <meta property="og:type" content="website" />
@@ -17,7 +15,7 @@ const SEO = ({ description, keywords, title }) => (
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:site" content="" />
+    <meta name="twitter:site" content={title} />
     <meta name="twitter:creator" content="@alexfalcucci" />
     <meta name="twitter:image" content="" />
     <meta property="og:image" content="" />
@@ -27,24 +25,11 @@ const SEO = ({ description, keywords, title }) => (
       type="image/png"
       href="/italy.png"
     />
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-171177495-4"></script>
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'UA-171177495-4');
-              `,
-      }}
-    />
   </>
 );
 
 SEO.defaultProps = {
+  title: "Summarizer",
   description:
     "Summarize the latest or specific news from Italy extracting the most important informations using AI and presenting them in a concise and easy-to-understand format.",
   keywords: [
