@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const SEO = ({ description, keywords, title }) => (
   <>
-    <title>{title} | Italy news summarizer</title>
+    <title>{title} | Summarizer</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords?.join(", ")} />
     <meta property="og:type" content="website" />
