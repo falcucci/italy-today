@@ -1,10 +1,6 @@
 import {
   Navbar,
   Text,
-  Avatar,
-  Dropdown,
-  Input,
-  Loading,
 } from "@nextui-org/react";
 import { Layout } from "../components/layout";
 import { Image } from "@nextui-org/react";
