@@ -23,7 +23,7 @@ export const Content = () => {
     console.log('url: ', url);
     const response = await fetch(url);
     const data = await response.json();
-    setSummary(data.data.value);
+    setSummary(data.summary);
     setLoading(false);
   };
 
