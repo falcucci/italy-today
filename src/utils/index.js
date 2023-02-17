@@ -13,6 +13,10 @@ const promiseHandler = promise => {
   return promise.then(data => [null, data]).catch(err => [err]);
 };
 
+
+const prefix = `I want you to act like a news article summarizer. I will input text from a news article and your job is to convert it into an useful summary of a few sentences. Do not repeat sentences and make sure all sentences are clear and complete:\n\n`;
+
 module.exports = {
   promiseHandler,
+  prefix
 };

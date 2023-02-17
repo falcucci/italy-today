@@ -3,13 +3,11 @@ import { ChatGPTAPI } from "chatgpt";
 import extractor from "unfluff";
 import { extract } from "@extractus/article-extractor";
 import { StatusCodes, getReasonPhrase } from "http-status-codes";
-import { promiseHandler } from "../../utils";
+import { promiseHandler, prefix } from "../../utils";
 
 const api = new ChatGPTAPI({
   apiKey: process.env.OPEN_AI_API_KEY,
 });
-
-const prefix = `I want you to act like a news article summarizer. I will input text from a news article and your job is to convert it into an useful summary of a few sentences. Do not repeat sentences and make sure all sentences are clear and complete:\n\n`;
 
 export default async function handler(req, res) {
   const { url } = req.query;
