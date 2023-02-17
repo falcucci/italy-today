@@ -6,7 +6,7 @@ import {
   Input,
   Loading,
 } from "@nextui-org/react";
-import { Layout } from "../components/Layout.js";
+import { Layout } from "../components/layout";
 import { Image } from "@nextui-org/react";
 
 export default function App() {

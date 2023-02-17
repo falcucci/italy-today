@@ -1,4 +1,4 @@
-import { Content } from "./Content.js";
+import { Content } from "../content";
 
 import { Container, Card, Row, Text } from "@nextui-org/react";
 

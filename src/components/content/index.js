@@ -6,9 +6,8 @@ import {
   Spacer,
   Grid,
 } from "@nextui-org/react";
-import { Box } from "./Box.js";
 import Typewriter from "typewriter-effect";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export const Content = () => {
   const [summary, setSummary] = useState("");
